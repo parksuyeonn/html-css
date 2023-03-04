@@ -1,0 +1,121 @@
+@media (min-width : 451px) and (max-width : 900px) {
+    *{
+        margin: 0;
+    }
+    :root{
+        --color-1 : #2196f3;
+        --color-2 : #fff;
+        --color-3 : #333333;
+        --color-4 : #d9d9d9;
+        --color-5 : #f0f0f0;
+      }
+    .container{
+        width: 900px;
+        height: 200vh;
+    }
+    header{
+        width: 100%;
+        height: 15%;
+        background-color: aqua;
+      }
+    header h1{
+        width: 100%;
+        height: 35%;
+        background-color: #2196f3;
+        font-size: 12px;
+        color: var(--color-2);
+        position: relative;
+      }
+    header h1>p{
+        position: absolute;
+        left: 310px;
+        top: 55px;
+      }
+      header h1 .none{
+        display: none;
+      }
+      header nav{
+        width: 100%;
+        height: 20%;
+        background-color: var(--color-4);
+        font-size: 10px;
+        position: absolute;
+      }
+      header nav>div{
+        position: relative;
+        left: 15px;
+        top: 18px;
+        font-size: 13px;
+      }
+      content{
+        height: 75%;
+        display: inline-block;
+        width: 100%;
+      }
+      content-1{
+        background-color: var(--color-2);
+        width: 35%;
+        display: inline-block;
+        height: 45%;
+      }
+      content-1 .content-1-1{
+        font-size: 40px;
+        line-height: 60px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        position: absolute;
+        left: 20px;
+        top: 230px;
+      }
+      content-1 .content-1-2{
+        position: absolute;
+        top: 580px;
+        font-size: 12px;
+        left: 65px;
+        text-align: center;
+      }
+      content-2{
+        background-color: var(--color-1);
+        width: 70%;
+      }
+      content-2{
+        display: inline-block;
+        width: 900px;
+        height: 55%;
+      }
+      content-2 .content-2-1{
+        /* top: 120px;
+        left: 550px; */
+        font-family: 'Karantina', sans-serif;
+        font-size: 120px;
+        text-align: right;
+        color: var(--color-2);
+        background-color: var(--color-1);
+        margin-right: 100px;
+      }
+      content-2>hr{
+        /* position: absolute;
+        top: 475px;
+        left: 20px; */
+        width: 800px;
+      }
+      content-2 .content-2-1 .content-2-1-none{
+        display: none;
+      }
+      footer{
+        height: 10%;
+        background-color: var(--color-3);
+        color: var(--color-2);
+        position: relative;
+        font-size: 10px;
+      }
+      footer .footer-inner{
+        position: absolute;
+        left: 20px;
+        top: 45px;
+      }
+      footer .footer-inner>hr{
+        width: 820px;
+      }
+      
+}

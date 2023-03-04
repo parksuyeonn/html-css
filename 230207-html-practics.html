@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *(별표, 에스터리스크)는 무엇을 의미할까요?*/
+        /* -전체 선택자를 나타내는 기호*/
+        * {
+            margin: 0;
+            padding: 0; /* padding은 무엇을 의미할까요? */
+                        /* -요소의 안쪽 여백 영역은 콘텐츠와 테두리 사이 공간
+                         padding은 요소의 내부에 빈 공간 추가, margin은 요소의 주위에 빈 공간 추가 */
+            box-sizing: border-box; /* box-sizing은 무엇을 의미할까요? */
+                                    /* -box-sizing는 박스의 크기를 어떤 것을 기준으로 할지
+                                        border-box는 테두리를 기준으로 크기를 정함*/
+        }
+        body > div {
+        /* 일반적인 선택자(selector)가 아닌 꺽쇠가 달려있는 형태는 무엇을 의미할까요? */
+            /* -모든 요소가 아닌 요소 내에 자식인 요소만 적용 */
+            width: 100vw; /* pixel이 아닌 낯설은 단위인 vw은 무엇을 의미할까요? */
+                          /* -화면(screen) 기준으로 너비 */
+            height: 100vh; /* vh 단위는 무엇을 의미할까요? */
+                           /* -화면(screen) 기준으로 높이 */
+        }
+
+        .bg-color-1 {background-color: darkkhaki;}
+        .bg-color-2 {background-color: darkslategrey}
+        .bg-color-3 {background-color: darksalmon;}
+    </style>
+</head>
+<body>
+    <div id="bg-color-1"></div>
+    <div id="bg-color-2"></div>
+    <div id="bg-color-3"></div>
+</body>
+</html>

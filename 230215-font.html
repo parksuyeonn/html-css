@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <style>
+    :root{
+      --color-1 : #585858;
+      --color-2 : #0f0f0f;
+    }
+    *{
+      box-sizing: border-box;
+      margin: 0;
+    }
+    #container{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    #container>p{
+      color: var(--color-1);
+      font-size: 35px;
+      font-family: 'Inter',sans-serif;
+      position: relative;
+      /* line-height: 80px; */
+    }
+    #container>p.one{
+      color: var(--color-2);
+      position: relative;
+      left: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <p>if you don't have ideas</p>
+    <p class="one">read.</p>
+    <p>if you have ideas</p>
+    <p>but can't articulate them</p>
+    <p class="one">write.</p>
+    <p>if you have ideas</p>
+    <p>and th clarity to execute</p>
+    <p class="one">build.</p>
+    <p class="one">expand.</p>
+    <p class="one">organize.</p>
+    <p>intil your craziest</p>
+    <p>ideas become reality</p>
+  </div>
+</body>
+</html>
